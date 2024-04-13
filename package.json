@@ -1,0 +1,23 @@
+{
+  "name": "jsproject1",
+  "version": "1.0.0",
+  "description": "sample project to learn JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/srihariraj/JsProjects.git"
+  },
+  "author": "Sri Hari Raj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srihariraj/JsProjects/issues"
+  },
+  "homepage": "https://github.com/srihariraj/JsProjects#readme",
+  "dependencies": {
+    "dotenv": "^16.4.2",
+    "mongoose": "^8.1.1"
+  }
+}
