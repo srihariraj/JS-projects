@@ -1,6 +1,6 @@
 function newfile(x, y) {
     console.log("executing");
-    return x + '' + y;
+    return x + ' ' + y;
 }
 
 

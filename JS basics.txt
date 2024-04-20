@@ -1,0 +1,115 @@
+Hello, World!
+
+
+Copy code
+console.log("Hello, World!");
+
+Addition
+
+
+Copy code
+let a = 5;
+let b = 10;
+let sum = a + b;
+console.log("The sum is: " + sum);
+
+Even or Odd
+
+
+Copy code
+let num = 7;
+if(num % 2 === 0){
+    console.log(num + " is even");
+} else {
+    console.log(num + " is odd");
+}
+
+Factorial of a Number
+
+
+Copy code
+let num = 5;
+let factorial = 1;
+for(let i = 1; i <= num; i++){
+    factorial *= i;
+}
+console.log("Factorial of " + num + " is: " + factorial);
+
+Reverse a String
+
+
+Copy code
+let str = "hello";
+let reversedStr = str.split("").reverse().join("");
+console.log("Reversed string: " + reversedStr);
+
+Palindrome Check
+
+
+Copy code
+let str = "racecar";
+let reversedStr = str.split("").reverse().join("");
+if(str === reversedStr){
+    console.log(str + " is a palindrome");
+} else {
+    console.log(str + " is not a palindrome");
+}
+
+Fibonacci Series
+
+
+Copy code
+let num = 10;
+let fib = [];
+fib[0] = 0;
+fib[1] = 1;
+for(let i = 2; i < num; i++){
+    fib[i] = fib[i - 1] + fib[i - 2];
+}
+console.log("Fibonacci Series: " + fib);
+
+Check Prime Number
+
+
+Copy code
+let num = 11;
+let isPrime = true;
+for(let i = 2; i <= Math.sqrt(num); i++){
+    if(num % i === 0){
+        isPrime = false;
+        break;
+    }
+}
+if(isPrime){
+    console.log(num + " is prime");
+} else {
+    console.log(num + " is not prime");
+}
+
+Sum of Digits in a Number
+
+
+Copy code
+let num = 12345;
+let sum = 0;
+while(num > 0){
+    sum += num % 10;
+    num = Math.floor(num / 10);
+}
+console.log("Sum of digits: " + sum);
+Check Leap Year
+
+
+Copy code
+let year = 2024;
+if((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0){
+    console.log(year + " is a leap year");
+} else {
+    console.log(year + " is not a leap year");
+}
+
+
+
+
+
+
